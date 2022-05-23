@@ -1,0 +1,180 @@
+nav {
+  margin: auto;
+  max-width: 1100px;
+}
+
+body{
+  font-family: 'Mulish', sans-serif;
+}
+
+.navbar{
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+}
+
+.container-nav{
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding-right: 220px;
+  padding-left: 220px;
+}
+
+.section1{
+  height: calc(100vh - 10vh);
+  background: url("https://cdn.shopify.com/s/files/1/0640/9702/6273/files/the-sun-bathes-a-green-valley-in-gold-light_1296x.jpg?v=1652292932") center center/cover;
+  width: 100%;
+  z-index: -1;
+
+}
+
+.main-title{
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+.btn{
+  font-weight: bold;
+}
+
+.section2{
+  height: calc(100vh - 10vh);
+}
+
+.container-carousel{
+  height: 500px;
+  width: 500px;
+  position: relative;
+
+}
+
+.carousel{
+  border-radius: 5%;
+  overflow: hidden;
+
+}
+
+.float-container{
+  border:3px solid #fff;
+  padding: 20px;
+}
+
+.float-child{
+  width: 30%;
+  float: left;
+  padding: 20px;
+  border: 2px;
+  text-align: center;
+}
+
+.float-child.caro{
+  margin-left: 20%;
+}
+
+.float-child.text{
+  margin-top: 5%;
+
+}
+
+.fa-star{
+  color: #f3c621;
+  position: relative;
+  margin-top: 20px;
+}
+
+.reviews{
+  text-align: left;
+}
+
+.btn-group{
+  float: left;
+  position: relative;
+  margin-right: 20px;
+}
+
+.btn-secondary{
+  width: 10em;
+}
+
+.btn-secondary:hover{
+  color: purple;
+  border-color: purple;
+}
+
+.buttons-added{
+  padding-left: 10px;
+}
+
+.qty-text{
+  width: 19em;
+  text-align: center;
+}
+
+.qty-head{
+  text-align: left;
+}
+
+.btn-cart{
+  background-color: #212529;
+  color: white;
+  width: 490px;
+  margin-left:1em;
+  height: 50px;
+}
+
+.btn-cart2{
+  background-color: black;
+  color: white;
+  width: 490px;
+  margin-left:1em;
+}
+.btn-pay{
+  width: 490px;
+  margin-left:1em;
+}
+
+.btn-pay:hover{
+  color: purple;
+  border-color: purple;
+
+}
+
+.horizontal{
+  width: 100%;
+  color: grey;
+}
+
+.section3{
+  height: calc(100vh - 80vh);
+}
+
+.three-icons{
+  text-align: center;
+  justify-content: space-between;
+}
+
+.fa-three{
+  text-align: center;
+  color: #05aff2;
+}
+
+.section-footer{
+  height: calc(100vh - 40vh);
+  background-color: #212529;
+  border-color: #000;
+  color: #faf8ff;
+  position: relative;
+  z-index: 0;
+
+}
+
+.container-links{
+  position: relative;
+  text-align: center;
+  bottom: 90%;
+  padding-left: 600px;
+}
